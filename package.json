@@ -1,21 +1,60 @@
 {
-  "name": "express-naked-redirect",
-  "version": "0.1.0",
-  "description": "expressNakedRedirect is a middleware for Express that redirects naked(root domain) request to www or its reverse.",
+  "_from": "express-naked-redirect-with-status-code",
+  "_id": "express-naked-redirect-with-status-code@0.2.0",
+  "_inBundle": false,
+  "_integrity": "sha512-KXGJJgelE0Idl+yrRkZlgBsG0N9te1p4ln9X3SrfmRKPP+zyr+zUasEzKWH1P2QkOVbylCvdB60nzVTeTwHRyA==",
+  "_location": "/express-naked-redirect-with-status-code",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "express-naked-redirect-with-status-code",
+    "name": "express-naked-redirect-with-status-code",
+    "escapedName": "express-naked-redirect-with-status-code",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/express-naked-redirect-with-status-code/-/express-naked-redirect-with-status-code-0.2.0.tgz",
+  "_shasum": "87bae37f9f8dab2c4dbd783182441e3e9f372a78",
+  "_spec": "express-naked-redirect-with-status-code",
+  "_where": "C:\\Projects\\evtiko-web-tr",
+  "author": {
+    "name": "GONZO"
+  },
+  "bugs": {
+    "url": "https://github.com/why2pac/express-naked-redirect/issues"
+  },
+  "bundleDependencies": false,
   "contributors": [
     {
-      "name": "GONZO",
-      "email": "oss@dp.farm"
+      "name": "Gorkem Yontem",
+      "email": "gorkem@hotmail.com"
     }
   ],
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha --reporter spec --bail --check-leaks test.js"
+  "dependencies": {
+    "parse-domain": "^1.1.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/why2pac/express-naked-redirect.git"
+  "deprecated": false,
+  "description": "expressNakedRedirect is a middleware for Express that redirects naked(root domain) request to www or its reverse.",
+  "devDependencies": {
+    "express": "^4.15.2",
+    "mocha": "^3.3.0",
+    "supertest": "^3.0.0"
   },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
+  "homepage": "https://github.com/why2pac/express-naked-redirect#readme",
   "keywords": [
     "node",
     "express",
@@ -24,26 +63,15 @@
     "domain",
     "www"
   ],
-  "dependencies": {
-    "parse-domain": "^1.1.0"
-  },
-  "devDependencies": {
-    "express": "^4.15.2",
-    "mocha": "^3.3.0",
-    "supertest": "^3.0.0"
-  },
-  "files": [
-    "LICENSE",
-    "README.md",
-    "index.js"
-  ],
-  "engines": {
-    "node": ">= 0.8.0"
-  },
-  "author": "GONZO",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/why2pac/express-naked-redirect/issues"
+  "main": "index.js",
+  "name": "express-naked-redirect-with-status-code",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gorkemyontem/express-naked-redirect.git"
   },
-  "homepage": "https://github.com/why2pac/express-naked-redirect#readme"
+  "scripts": {
+    "test": "mocha --reporter spec --bail --check-leaks test.js"
+  },
+  "version": "0.2.0"
 }
